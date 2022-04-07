@@ -1,5 +1,13 @@
+/* Colors */
+:root {
+  --background-hero-footer: #2f303a;
+  --active-link-color: #2196f3;
+  --font-hero-color: #ffffff;
+}
+
 body {
   color: #757575;
+  font-family: 'Roboto', sans-serif;
 }
 ul {
   list-style: none;
@@ -10,14 +18,15 @@ ul {
   color: #000000;
 }
 .web {
-  color: #2196f3;
+  color: var(--active-link-color);
 }
-.nav-page a {
+.nav-page .link {
   color: #212121;
 }
-.nav-page a:hover,
-.nav-page a:focus {
-  color: #2196f3;
+.nav-page .link:hover,
+.nav-page .link:focus,
+.nav-page .link.now {
+  color: var(--active-link-color);
 }
 
 .cont-page a {
@@ -25,17 +34,17 @@ ul {
 }
 .cont-page a:hover,
 .cont-page a:focus {
-  color: #2196f3;
+  color: var(--active-link-color);
 }
 
 /* Main */
 .hero {
-  background-color: #2f303a;
-  color: #ffffff;
+  background-color: var(--background-hero-footer);
+  color: var(--font-hero-color);
 }
 .button {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--font-hero-color);
+  background-color: var(--active-link-color);
   cursor: pointer;
 }
 .our-team {
@@ -43,17 +52,17 @@ ul {
 }
 /* Footer */
 .footer {
-  background-color: #2f303a;
+  background-color: var(--background-hero-footer);
 }
 .studio-fot {
-  color: #ffffff;
+  color: var(--font-hero-color);
 }
 .cont-foot a {
   color: rgba(255, 255, 255, 0.6);
 }
 .cont-foot a:hover,
 .cont-foot a:focus {
-  color: #2196f3;
+  color: var(--active-link-color);
 }
 /* PORTFOLIO */
 
@@ -64,8 +73,8 @@ ul {
 }
 .btn-portfolio:hover,
 .btn-portfolio:focus,
-.btn-portfolio-current {
-  color: #ffffff;
-  background-color: #2196f3;
+.current {
+  color: var(--font-hero-color);
+  background-color: var(--active-link-color);
   cursor: pointer;
 }
