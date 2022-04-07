@@ -1,0 +1,71 @@
+body {
+  color: #757575;
+}
+ul {
+  list-style: none;
+}
+
+/* Header */
+.studio {
+  color: #000000;
+}
+.web {
+  color: #2196f3;
+}
+.nav-page a {
+  color: #212121;
+}
+.nav-page a:hover,
+.nav-page a:focus {
+  color: #2196f3;
+}
+
+.cont-page a {
+  color: #757575;
+}
+.cont-page a:hover,
+.cont-page a:focus {
+  color: #2196f3;
+}
+
+/* Main */
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.button {
+  color: #ffffff;
+  background-color: #2196f3;
+  cursor: pointer;
+}
+.our-team {
+  background-color: #f5f4fa;
+}
+/* Footer */
+.footer {
+  background-color: #2f303a;
+}
+.studio-fot {
+  color: #ffffff;
+}
+.cont-foot a {
+  color: rgba(255, 255, 255, 0.6);
+}
+.cont-foot a:hover,
+.cont-foot a:focus {
+  color: #2196f3;
+}
+/* PORTFOLIO */
+
+.btn-portfolio {
+  color: #212121;
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+.btn-portfolio:hover,
+.btn-portfolio:focus,
+.btn-portfolio-current {
+  color: #ffffff;
+  background-color: #2196f3;
+  cursor: pointer;
+}
