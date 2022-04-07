@@ -8,14 +8,26 @@
 body {
   color: #757575;
   font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
 }
 ul {
   list-style: none;
 }
 
 /* Header */
+.nav-page,
+.cont-page {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
 .studio {
   color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 .web {
   color: var(--active-link-color);
@@ -42,13 +54,61 @@ ul {
   background-color: var(--background-hero-footer);
   color: var(--font-hero-color);
 }
+.hero h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
 .button {
   color: var(--font-hero-color);
   background-color: var(--active-link-color);
   cursor: pointer;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.86;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.benefits h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #212121;
+}
+.benefits p {
+  font-size: 14px;
+  line-height: 1.71;
+}
+.what-are-we-doing h2,
+.our-team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: #212121;
 }
 .our-team {
   background-color: #f5f4fa;
+}
+.our-team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: #212121;
+}
+.our-team p {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
 /* Footer */
 .footer {
@@ -56,6 +116,16 @@ ul {
 }
 .studio-fot {
   color: var(--font-hero-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.adress {
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  color: #ffffff;
 }
 .cont-foot a {
   color: rgba(255, 255, 255, 0.6);
@@ -70,6 +140,12 @@ ul {
   color: #212121;
   background-color: #f5f4fa;
   cursor: pointer;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
 }
 .btn-portfolio:hover,
 .btn-portfolio:focus,
@@ -77,4 +153,15 @@ ul {
   color: var(--font-hero-color);
   background-color: var(--active-link-color);
   cursor: pointer;
+}
+.content h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.content p {
+  font-size: 16px;
+  line-height: 1.88;
 }
