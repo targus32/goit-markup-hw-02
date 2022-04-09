@@ -1,58 +1,61 @@
 /* Colors */
 :root {
   --background-hero-footer: #2f303a;
-  --active-link-color: #2196f3;
-  --font-hero-color: #ffffff;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
 }
 
 body {
-  color: #757575;
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
+  font-size: 14px;
 }
 ul {
   list-style: none;
 }
 
 /* Header */
-.nav-page,
-.cont-page {
+.header-list,
+.header-contact {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.studio {
+.logo {
   color: #000000;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
 }
-.web {
-  color: var(--active-link-color);
+.accent {
+  color: var(--accent-color);
 }
-.nav-page .link {
-  color: #212121;
+.header-list .link {
+  color: var(--secondary-text-color);
 }
-.nav-page .link:hover,
-.nav-page .link:focus,
-.nav-page .link.now {
-  color: var(--active-link-color);
+.header-list .link:hover,
+.header-list .link:focus,
+.header-list .link.current-navigation {
+  color: var(--accent-color);
 }
 
-.cont-page a {
-  color: #757575;
+.header-contact a {
+  color: var(--primary-text-color);
 }
-.cont-page a:hover,
-.cont-page a:focus {
-  color: var(--active-link-color);
+.header-contact a:hover,
+.header-contact a:focus {
+  color: var(--accent-color);
 }
 
 /* Main */
 .hero {
   background-color: var(--background-hero-footer);
-  color: var(--font-hero-color);
+  color: var(--primary-white-color);
 }
 .hero h1 {
   font-weight: 900;
@@ -63,8 +66,8 @@ ul {
   text-transform: uppercase;
 }
 .button {
-  color: var(--font-hero-color);
-  background-color: var(--active-link-color);
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
   cursor: pointer;
   font-family: inherit;
   font-style: normal;
@@ -81,31 +84,30 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--secondary-text-color);
 }
 .benefits p {
-  font-size: 14px;
   line-height: 1.71;
 }
-.what-are-we-doing h2,
-.our-team h2 {
+.section-title h2,
+.section-title h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  color: #212121;
+  color: var(--secondary-text-color);
 }
-.our-team {
+.section-title {
   background-color: #f5f4fa;
 }
-.our-team h3 {
+.section-title h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  color: #212121;
+  color: var(--secondary-text-color);
 }
-.our-team p {
+.section-title p {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -114,30 +116,29 @@ ul {
 .footer {
   background-color: var(--background-hero-footer);
 }
-.studio-fot {
-  color: var(--font-hero-color);
+.logo-footer {
+  color: var(--primary-white-color);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
 }
-.adress {
-  font-size: 14px;
+.footer-adress {
   line-height: 1.71;
   font-style: normal;
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
-.cont-foot a {
+.footer-contacts a {
   color: rgba(255, 255, 255, 0.6);
 }
-.cont-foot a:hover,
-.cont-foot a:focus {
-  color: var(--active-link-color);
+.footer-contacts a:hover,
+.footer-contacts a:focus {
+  color: var(--accent-color);
 }
 /* PORTFOLIO */
 
 .btn-portfolio {
-  color: #212121;
+  color: var(--secondary-text-color);
   background-color: #f5f4fa;
   cursor: pointer;
   font-family: inherit;
@@ -149,8 +150,8 @@ ul {
 .btn-portfolio:hover,
 .btn-portfolio:focus,
 .current {
-  color: var(--font-hero-color);
-  background-color: var(--active-link-color);
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
   cursor: pointer;
 }
 .content h2 {
@@ -158,10 +159,10 @@ ul {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--secondary-text-color);
 }
 .content p {
   font-size: 16px;
   line-height: 1.88;
-  color: #757575;
+  color: var(--primary-text-color);
 }
