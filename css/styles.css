@@ -75,9 +75,6 @@ ul {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.86;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
 }
 .benefits h3 {
@@ -90,25 +87,24 @@ ul {
 .benefits p {
   line-height: 1.71;
 }
-.section-title h2,
-.section-title h2 {
+.section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   color: var(--secondary-text-color);
 }
-.section-title {
+.team {
   background-color: #f5f4fa;
 }
-.section-title h3 {
+.team h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   color: var(--secondary-text-color);
 }
-.section-title p {
+.team p {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -143,7 +139,6 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-  text-align: center;
 }
 .btn-portfolio:hover,
 .btn-portfolio:focus,
@@ -152,14 +147,14 @@ ul {
   background-color: var(--accent-color);
   cursor: pointer;
 }
-.content h2 {
+.cards-list h2 {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--secondary-text-color);
 }
-.content p {
+.cards-list p {
   font-size: 16px;
   line-height: 1.88;
   color: var(--primary-text-color);
